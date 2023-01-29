@@ -1,13 +1,18 @@
 import React from 'react';
+import Banner from '../components/Banner'
+import {findAllByDisplayValue} from "@testing-library/react";
 
 function Home() {
     return (
-        <div className="Home">
-            <header className="Home-header">
-                <div>WAI LA HOME
-                </div>
-            </header>
+        <div>
+
+
+        <Banner/>
+    <div className={"cardContainer"}>
+
+    </div>
         </div>
+
     );
 }
 

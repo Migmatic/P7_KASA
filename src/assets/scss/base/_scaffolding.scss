@@ -1,0 +1,14 @@
+//=================================================================================================
+// HTML base
+//=================================================================================================
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font-size--4;
+  font-weight: $font-weight-medium ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.globalWrapper{
+  margin: 0 100px;
+}

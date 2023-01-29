@@ -1,0 +1,18 @@
+header{
+  display:flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    a{
+      color: $color-main;
+      text-decoration: none;
+      transition: all $duration ease-in-out;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
