@@ -1,12 +1,9 @@
-
-import React, { useState, useEffect } from "react";
-
-
-function Banner() {
+function Banner(props) {
 
     return (
         <div class={"banner"}>
-            <p>Chez vous, partout et ailleurs</p>
+            <p class={"banner__desc"}>{props.desc}</p>
+            <img class={"banner__img"} src={props.img} alt={"Paysage breton"}></img>
         </div>
     )
 }
