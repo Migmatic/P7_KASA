@@ -1,0 +1,81 @@
+
+.lodging{
+    margin: 25px 0 40px 0;
+    &__top{
+        margin: 30px 0 25px 0;
+        display: flex;
+        gap: 200px;
+        justify-content: space-between;
+    }
+    h2{
+        font-size: $font-size--6;
+        font-weight: $font-weight-medium;
+        color:$color-main;
+        margin: 0;
+    }
+    h3{
+        font-size: $font-size--4;
+        font-weight: $font-weight-medium;
+        color:$color-main;
+        margin: 0;
+    }
+
+    &__tags{
+        display:flex;
+        gap:10px;
+        margin-top: 20px;
+    }
+    &__tag{
+        display:flex
+    }
+    &__host{
+        display:flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        p{
+            margin: 0;
+            font-family: Montserrat;
+            font-size: $font-size--4;
+            font-weight: $font-weight-medium;
+            line-height: 26px;
+            text-align: right;
+            color: $color-main;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 64px;
+            height: 64px;
+            border-radius: 90px;
+            font-family: Montserrat;
+        }
+    }
+    &__rating{
+        list-style: none;
+        margin: 25px 0 0 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        .grayStar svg{
+            fill:#E3E3E3;
+        }
+        .redStar svg{
+            fill:$color-main;
+        }
+    }
+    &__bot{
+        display: flex;
+        justify-content: space-between;
+        gap: 8%;
+        .collapse{
+            font-size:$font-size--4;
+            flex: 50%;
+            &__button{
+                font-size:$font-size--4;
+                height: 52px;
+            }
+        }
+    }
+}

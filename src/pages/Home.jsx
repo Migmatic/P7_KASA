@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import BZH from '../assets/images/bretagne.png'
@@ -20,7 +19,7 @@ function Home() {
 
             <div class={"cardContainer"}>
             {logements.filter((item, index) => index < nbrCardDisplay).map((logement,index) => (
-                <Card title={logement["title"]} id={logement["id"]} no={index}/>
+                <Card title={logement["title"]} index={index} cover={logement["cover"]}/>
             ))}
                 <div class="buttonWrapper">
                     <button class="cardContainer__button" onClick={() => setnbrCardDisplay(nbrCardDisplay + 6)}>

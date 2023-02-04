@@ -1,0 +1,13 @@
+.tag{
+    background:$color-main;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+    font-size: $font-size--1;
+    color: $color-white;
+    font-weight: $font-weight-normal;
+    white-space: nowrap;
+    padding: 0 10px;
+}

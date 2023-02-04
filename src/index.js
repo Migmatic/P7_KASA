@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './pages/Home';
-import Logement from './pages/Logement';
+import Lodging from './pages/Lodging';
 import About from './pages/About';
 import Error from './pages/Error';
 import Header from './layout/Header';
@@ -22,7 +22,7 @@ root.render(
             <Route path="/" element={<Home/>}>
             </Route>
 
-            <Route path="/logement/:idLogement" element={<Logement/>}>
+            <Route path="/lodging/:numberlogement" element={<Lodging/>}>
             </Route>
 
             <Route path="/about" element={<About/>}>
