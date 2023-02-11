@@ -12,3 +12,9 @@ html {
 .globalWrapper{
   margin: 0 100px;
 }
+
+@media (max-width: 768x) {
+  .globalWrapper{
+    margin: 0 10px;
+  }
+  }
