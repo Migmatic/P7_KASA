@@ -5,9 +5,18 @@
     align-items: center;
     justify-content: center;
     border-radius:10px;
-    font-size: $font-size--1;
+    font-size: $font-size--3;
     color: $color-white;
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-medium;
     white-space: nowrap;
-    padding: 0 10px;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .tag{
+        height:18px;
+        border-radius:5px;
+        font-size: $font-size--0;
+        padding: 0 10px;
+    }
 }

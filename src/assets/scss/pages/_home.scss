@@ -38,3 +38,15 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+  .home{
+    margin:20px 0 20px 0;
+    .cardContainer{
+      margin-top: 20px;
+      padding: 0;
+      background-color: $color-white;
+      gap: 20px;
+    }
+  }
+}

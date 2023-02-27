@@ -19,6 +19,7 @@
         transform: translateY(-50%);
         cursor: pointer;
         transition: all $duration ease-in-out;
+        padding: 0;
         &--left{
             left: 25px;
             svg{
@@ -40,5 +41,32 @@
         }
 
     }
+}
 
+@media (max-width: 768px) {
+    .carousel{
+        height:255px;
+        border-radius: 10px;
+        &__image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &__button{
+            &--left{
+                left: 5px;
+                transform: translateY(-50%) scale(0.25) translateX(-150%);
+                &:hover{
+                    left: 5px;
+                }
+            }
+            &--right{
+                transform: translateY(-50%) scale(0.25) translateX(150%);
+                right: 5px;
+                &:hover{
+                    right: 5px;
+                }
+            }
+        }
+    }
 }

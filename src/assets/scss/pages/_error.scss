@@ -12,8 +12,26 @@
     }
     &__message{
         margin: 10px 0 100px 0;
+        font-size: $font-size--6;
+        text-align: center;
     }
     &__link{
         color: $color-main;
+        font-size: $font-size--4;
+    }
+}
+
+@media (max-width: 768px) {
+    .error{
+        &__404{
+            font-size:96px;
+        }
+        &__message{
+            margin: 0 0 100px 0;
+            font-size: $font-size--4;
+        }
+        &__link{
+            font-size: $font-size--3;
+        }
     }
 }
