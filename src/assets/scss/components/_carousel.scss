@@ -41,6 +41,16 @@
         }
 
     }
+    &__number{
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 25px;
+        font-size: $font-size--4;
+        font-weight: $font-weight-medium;
+        color:$color-light;
+        margin: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -67,6 +77,9 @@
                     right: 5px;
                 }
             }
+        }
+        &__number{
+            display: none;
         }
     }
 }

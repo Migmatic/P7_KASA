@@ -17,6 +17,7 @@ function Carousel(props) {
       <img class="carousel__image" src={props.img[slide]} alt={"Photo de l'appartement numéro " + (slide + 1)}/>
 
       <button class="carousel__button carousel__button--right" onClick={() => setSlide(slide+1)}>{NavArrow}</button>
+        <p class="carousel__number">{slide+1}/{slideNumber}</p>
     </div>
   )
 }
